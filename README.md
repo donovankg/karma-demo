@@ -8,11 +8,13 @@
     1. `./node_modules/karma/bin/karma init`
                 OR
     2. create a script inside of package.json:
+   
         ```javascript
               "scripts": {
                 "test": "karma start",
                 "karma-init": "karma init"
               },
         ```
+        
 6. `npm install --save-dev jasmine`
 7. `bower init` To get client side dependencies.
